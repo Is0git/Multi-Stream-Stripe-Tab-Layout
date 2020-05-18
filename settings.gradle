@@ -1,0 +1,3 @@
+rootProject.name='Multi-Stream-Stripe-Tab-Layout'
+include ':app'
+include ':multistreamstripetablayout'

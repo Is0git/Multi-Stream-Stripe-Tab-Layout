@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StripeTabLayout">
+        <attr name="showStripes" format="boolean" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="headerText" format="string" />
+    </declare-styleable>
+    <item name="tabLayout" type="id" />
+    <item name="stripeView" type="id" />
+    <item name="headerText" type="id" />
+
+    <style name="tabCustomStyle" parent="Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabIndicatorColor">#FFFEEFC4</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/colorSecondary</item>
+    </style>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorSurface">#ffffff</color>
+    <color name="colorOnSurface">#CECECE</color>
+    <color name="colorPrimary">#5e4eba</color>
+    <color name="colorSecondary">#fe0000</color>
+    <color name="colorLight">#EFEDED</color>
+    <color name="colorAccent">#172450</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnPrimaryVariant">#FF172450</color>
+    <color name="colorOnSecondaryVariant">#B43BFF</color>
+    <color name="headlineShadowColor">#868585</color>
+</resources>

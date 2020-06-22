@@ -80,7 +80,7 @@ class StripeTabLayout : ConstraintLayout, TabLayout.OnTabSelectedListener {
             duration = 300
         }
         setConstraints()
-        val stripes = mutableListOf(Stripe("#5e4eba"), Stripe("#172450"))
+        val stripes = mutableListOf(Stripe("#5e4eba"), Stripe("#FFFF6F00"))
         addStripes(stripes)
     }
 
